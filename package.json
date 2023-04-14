@@ -11,7 +11,7 @@
     "serve": "ts-node --project ./server/tsconfig.json ./server/index.ts", // 更新 serve 命令
     "fetch": "node ./data/build.js",
     "publish": "npm run build && node ./build/publish.js"
-  }
+  },
     "devDependencies": {
         "@iconify/vue2": "2.1.0",
         "@notionhq/client": "2.2.4",
