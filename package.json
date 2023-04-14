@@ -7,8 +7,7 @@
 "scripts": {
     "start": "npm-run-all --parallel dev serve",
     "dev": "vite dev --host",
-    "install-jiti": "npm install jiti@1.6.0 --quiet --no-save",
-    "postinstall": "npm run install-jiti"
+
     "build": "vite build",
     "preview": "vite serve",
     "serve": "jiti ./server/index.ts",
