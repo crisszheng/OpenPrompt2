@@ -1,10 +1,9 @@
 <template>
     <div class="IndexPage">
         <nav>
-            <a class="logo" href="https://github.com/Moonvy/OpenPromptStudio"><b>OPS</b>/OpenPromptStudio</a>
-            <a class="icon-link" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                <Icon icon="radix-icons:github-logo"
-            /></a>
+            <a class="logo" href="https://www.ohhai.top/"><b>OHHAI智研社</b>/Prompt生成器</a>
+            <a class="icon-link" href="https://www.ohhai.top/" target="_blank">
+                <Icon icon="radix-icons:github-logo"/></a>
 
             <div class="dict-button-box" @click="toggleDictPad()">
                 提示词词典
@@ -16,7 +15,7 @@
             <div class="title">
                 <Icon icon="mingcute:book-4-fill" />
                 提示词词典
-                <!--                <a class="github-dict" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">-->
+                <!--                <a class="github-dict" href="https://www.ohhai.top/" target="_blank">-->
                 <!--                    <Icon icon="radix-icons:github-logo" />一起维护词典</a-->
                 <!--                >-->
                 <button class="icon close-button" @click="toggleDictPad(false)">
@@ -26,10 +25,10 @@
             <PromptDict />
         </section>
         <footer>
-            <a href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ version }} /
+            <a href="https://www.ohhai.top/" target="_blank">
+                <img class="icon" src="/icon.svg" /> OHHAI智研社 /
             </a>
-            <a href="https://moonvy.com/?homepage"> made by <img src="./assets/logo_full_cn.svg" /></a>
+            
         </footer>
     </div>
 </template>
