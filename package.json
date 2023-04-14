@@ -9,6 +9,7 @@
     "dev": "vite dev --host",
     "build": "vite build",
     "preview": "vite serve",
+    "install-jiti": "npm install jiti@1.6.0 --quiet --no-save",
     "serve": "jiti ./server/index.ts",
     "fetch": "node ./data/build.js",
     "publish": "npm run build && node ./build/publish.js"
