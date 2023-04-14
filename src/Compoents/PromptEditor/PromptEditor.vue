@@ -138,7 +138,7 @@
         </div>
 
         <!--    在使用 indexfs.moonvy.com 的翻译服务时显示广告，尝试给腾讯翻译的服务费回血    -->
-        <div class="回血-box" v-tooltip="'广告商提供的内容，与本网站（OHHAI智研社）无关'">
+        <div class="回血-box" v-tooltip="'客官~进来看看'">
             <a href="https://www.ohhai.top/" target="_blank"> <img src="./Assets/ad.png" /> </a>
         </div>
     </div>
