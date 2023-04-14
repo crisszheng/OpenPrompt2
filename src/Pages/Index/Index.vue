@@ -2,8 +2,7 @@
     <div class="IndexPage">
         <nav>
             <a class="logo" href="https://www.ohhai.top/"><b>OHHAI智研社</b>/Prompt生成器</a>
-            <a class="icon-link" href="https://www.ohhai.top/" target="_blank">
-                <Icon icon="radix-icons:github-logo"/></a>
+            <a class="icon-link" href="https://www.ohhai.top/" target="_blank"></a>
 
             <div class="dict-button-box" @click="toggleDictPad()">
                 提示词词典
