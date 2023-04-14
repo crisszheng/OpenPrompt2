@@ -2,8 +2,9 @@ import { PromptWork } from "./Sub/PromptWork"
 
 export class PromptEditorClass {
     data = {
-        server:
-        "https://p.ohhai.top"/prompt-studio",
+        server : location.host.startsWith("localhost")
+            ? "https://p.ohhai.top/prompt-studio"
+            : "https://p.ohhai.top/prompt-studio",
         enablePngExportFixed: false,
         enablePngExportCopy: false,
     }
