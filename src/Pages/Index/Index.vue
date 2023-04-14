@@ -25,7 +25,7 @@
         </section>
         <footer>
             <a href="https://www.ohhai.top/" target="_blank">
-                <img class="icon" src="/icon.svg" /> OHHAI智研社 /
+                <img class="icon" src="/icon.svg" /> OHHAI智研社 2023
             </a>
             
         </footer>
