@@ -4,14 +4,23 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "start": "npm-run-all --parallel dev serve",
-        "dev": "vite dev --host",
-        "build": "vite build",
-        "preview": "vite serve",
-        "serve": "jiti ./server/index.ts",
-        "fetch": "node ./data/build.js",
-        "publish": "npm run build && node ./build/publish.js"
-    },
+    // 启动本地开发和服务的并行执行命令
+    "start": "npm-run-all --parallel dev serve",
+    // 启动本地开发服务器的命令
+    "dev": "vite dev --host",
+    // 打包命令
+    "build": "vite build",
+    // 预览命令（使用打包后的文件）
+    "preview": "vite serve",
+    // 启动服务端脚本的命令（使用旧版的 jiti 模块）
+    "serve": "jiti ./server/index.ts",
+    // 安装旧版 jiti 模块的命令
+    "preinstall": "npm install jiti@1.6.0 --quiet --no-save",
+    // 构建数据的命令
+    "fetch": "node ./data/build.js",
+    // 发布命令（先执行打包，在执行发布脚本）
+    "publish": "npm run build && node ./build/publish.js"
+},
     "devDependencies": {
         "@iconify/vue2": "2.1.0",
         "@notionhq/client": "2.2.4",
