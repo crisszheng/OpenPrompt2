@@ -24,7 +24,7 @@
             <div
                 class="server-select"
                 v-tooltip="
-                    `调用翻译接口会有不小的成本开销，我们做了适当限制\n当同时使用用户过多时会不稳定，请见谅\n想要更好的翻译体验可以在本项目 Github 页获得本地部署的方法`
+                    `调用翻译接口会有不小的成本开销，我们做了适当限制\n当同时使用用户过多时会不稳定，请见谅`
                 "
             >
                 <Icon icon="ic:baseline-g-translate" />
@@ -138,7 +138,7 @@
         </div>
 
         <!--    在使用 indexfs.moonvy.com 的翻译服务时显示广告，尝试给腾讯翻译的服务费回血    -->
-        <div v-if="needShowAd" class="回血-box" v-tooltip="'广告商提供的内容，与本网站（Moonvy 月维）无关'">
+        <div v-if="needShowAd" class="回血-box" v-tooltip="'广告商提供的内容，与本网站（OHHAI智研社）无关'">
             <a href="https://www.ohhai.top/" target="_blank"> <img src="./Assets/ad.png" /> </a>
         </div>
     </div>
