@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "vercel-build": "npm i jiti && jiti /path/to/server/index.js",
+        "vercel-build": "npm i jiti",
         "start": "npm-run-all --parallel dev serve",
         "dev": "vite dev --host",
         "build": "vite build",
