@@ -4,13 +4,14 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
+    "start": "npm-run-all --parallel dev serve",
     "dev": "vite dev --host",
-    "build": "vite build && npm run compile",
-    "compile": "tsc",
-    "start": "node ./dist/server/index.js", // 更新启动命令
+    "build": "vite build",
+    "preview": "vite serve",
+    "serve": "ts-node --project ./server/tsconfig.json ./server/index.ts", // 更新 serve 命令
     "fetch": "node ./data/build.js",
-    "publish": "npm run build && node ./build/publish.js",
-  },
+    "publish": "npm run build && node ./build/publish.js"
+  }
     "devDependencies": {
         "@iconify/vue2": "2.1.0",
         "@notionhq/client": "2.2.4",
