@@ -10,7 +10,6 @@ import * as process from "process"
 // https://vitejs.dev/config/
 let config = {
     root: "./web",
-    base: "/apps/ops/",
     worker: {
         format: "es",
     },
