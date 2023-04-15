@@ -10,7 +10,7 @@
     "preview": "vite serve",
     "install-jiti": "npm install jiti@1.6.0 --quiet --no-save",
     "postinstall": "npm run install-jiti",
-    "serve": "node ./server/index.js",
+    /* "serve": "node ./server/index.js", */
     "fetch": "node ./data/build.js",
     "publish": "npm run build && node ./build/publish.js",
     "vercel-build": "npm run build && NODE_TLS_REJECT_UNAUTHORIZED=0 vercel --force"
